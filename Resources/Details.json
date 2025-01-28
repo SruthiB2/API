@@ -1,0 +1,70 @@
+{
+    "firstName": "John",
+    "lastName": "doe",
+    "age": 26,
+    "address": {
+        "streetAddress": "naist street",
+        "city": "Nara",
+        "postalCode": "630-0192"
+    },
+    
+    
+        "store":{
+    "books": [
+        {
+           "category" : "fiction",
+           "bookName": "fiction book1",
+           "author": "james",
+           "price": 20,
+           "isbn": "isbn1",
+           "phoneNumbers": [
+        {
+            "type": "iPhone",
+            "number": "0123-4567-8888",
+            "info": "ph1"
+        },
+        {
+            "type": "home",
+            "number": "0123-4567-8910",
+            "info": "ph1"
+        },
+        {
+            "type": "mobile",
+            "number": "123-456-7890",
+            "info": "ph1"
+        }
+    ]
+        },
+         {
+           "category" : "fiction",
+           "bookName": "fiction book2",
+           "author": "Soctt",
+           "price": 21
+        },
+        
+         {
+           "category" : "fiction",
+           "bookName": "fiction book3",
+           "author": "Jason",
+           "price": 22
+        },
+        
+         {
+           "category" : "fiction",
+           "bookName": "fiction book4",
+           "author": "python",
+           "price": 23,
+           "isbn": "isbn2"
+        },
+        
+         {
+           "category" : "fiction",
+           "bookName": "fiction book5",
+           "author": "bill gates",
+           "price": 24
+        }
+        
+        ]
+        }
+    
+}

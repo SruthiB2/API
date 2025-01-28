@@ -11,12 +11,8 @@ import io.restassured.specification.RequestSpecification;
 public class GetResponseBody {
 	@Test
 	public void getResponseBodyTest() {
-		RestAssured.baseURI = "https://reqres.in/api/users?page=2";
-		RequestSpecification requestSpecification = RestAssured.given();
-		Response resp = requestSpecification.request(Method.GET,"");
-		System.out.println("Response: "+resp.prettyPrint());
-	
+		RestAssured.baseURI = "http://64.227.160.186:8080/api/accounts";
+		Response response = RestAssured.given().when().get();
+		System.out.println(response.prettyPrint());
 	}
-	
-
 }

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-24T13:17:01 IST" name="Suite" finished-at="2025-01-24T13:17:06 IST" duration-ms="5318">
+    <groups>
+    </groups>
+    <test started-at="2025-01-24T13:17:01 IST" name="Test" finished-at="2025-01-24T13:17:06 IST" duration-ms="5318">
+      <class name="api.test.TestCreateTweetEndpoint">
+        <test-method is-config="true" signature="setupData()[pri:0, instance:api.test.TestCreateTweetEndpoint@70ed52de]" started-at="2025-01-24T13:17:01 IST" name="setupData" finished-at="2025-01-24T13:17:01 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupData -->
+        <test-method signature="testCreateTweet(api.payload.TweetRequest,org.testng.ITestContext)[pri:0, instance:api.test.TestCreateTweetEndpoint@70ed52de]" started-at="2025-01-24T13:17:02 IST" name="testCreateTweet" data-provider="tweetTestData" finished-at="2025-01-24T13:17:05 IST" duration-ms="3345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TweetRequest [title=title1, body=body1, id=1.0]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4fbb001b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateTweet -->
+      </class> <!-- api.test.TestCreateTweetEndpoint -->
+      <class name="api.test.TestGetTweetEndpoint">
+        <test-method signature="testGetATweetDetails(org.testng.ITestContext)[pri:0, instance:api.test.TestGetTweetEndpoint@247310d0]" started-at="2025-01-24T13:17:05 IST" name="testGetATweetDetails" finished-at="2025-01-24T13:17:06 IST" duration-ms="668" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4fbb001b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetATweetDetails -->
+        <test-method signature="testGetAllTweets()[pri:0, instance:api.test.TestGetTweetEndpoint@247310d0]" started-at="2025-01-24T13:17:06 IST" name="testGetAllTweets" finished-at="2025-01-24T13:17:06 IST" duration-ms="604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllTweets -->
+      </class> <!-- api.test.TestGetTweetEndpoint -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

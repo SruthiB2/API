@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\SruthiB\eclipse-workspace\API\testngITestContext.xml</span>
+                    <span>C:\Users\SruthiB\eclipse-workspace\API\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,12 +103,17 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="api.test.GenerateBearearTokenTest" class="method navigator-link" hash-for-method="generatBearerToken(org.testng.TestRunner@24105dc5)">generatBearerToken(org.testng.TestRunner@24105dc5)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="api.test.TestCreateTweetEndpoint" class="method navigator-link" hash-for-method="testCreateTweet(TweetRequest [title=title1, body=body1, id=1.0], org.testng.TestRunner@4fbb001b)">testCreateTweet(TweetRequest [title=title1, body=body1, id=1.0], org.testng.TestRunner@4fbb001b)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="api.test.UserManagementTest" class="method navigator-link" hash-for-method="testGetUserProfileDetails(org.testng.TestRunner@24105dc5)">testGetUserProfileDetails(org.testng.TestRunner@24105dc5)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="api.test.TestGetTweetEndpoint" class="method navigator-link" hash-for-method="testGetATweetDetails(org.testng.TestRunner@4fbb001b)">testGetATweetDetails(org.testng.TestRunner@4fbb001b)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.TestGetTweetEndpoint" class="method navigator-link" hash-for-method="testGetAllTweets">testGetAllTweets</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -126,15 +131,22 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">api.test.GenerateBearearTokenTest</span>
+              <span class="class-name">api.test.TestGetTweetEndpoint</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="generatBearerToken(org.testng.TestRunner@24105dc5)">
-                  </a> <!-- generatBearerToken(org.testng.TestRunner@24105dc5) -->
-                  <span class="method-name">generatBearerToken</span>
-                  <span class="parameters">(org.testng.TestRunner@24105dc5)</span>
+                  <a name="testGetATweetDetails(org.testng.TestRunner@4fbb001b)">
+                  </a> <!-- testGetATweetDetails(org.testng.TestRunner@4fbb001b) -->
+                  <span class="method-name">testGetATweetDetails</span>
+                  <span class="parameters">(org.testng.TestRunner@4fbb001b)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetAllTweets">
+                  </a> <!-- testGetAllTweets -->
+                  <span class="method-name">testGetAllTweets</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -142,15 +154,15 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">api.test.UserManagementTest</span>
+              <span class="class-name">api.test.TestCreateTweetEndpoint</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testGetUserProfileDetails(org.testng.TestRunner@24105dc5)">
-                  </a> <!-- testGetUserProfileDetails(org.testng.TestRunner@24105dc5) -->
-                  <span class="method-name">testGetUserProfileDetails</span>
-                  <span class="parameters">(org.testng.TestRunner@24105dc5)</span>
+                  <a name="testCreateTweet(TweetRequest [title=title1, body=body1, id=1.0], org.testng.TestRunner@4fbb001b)">
+                  </a> <!-- testCreateTweet(TweetRequest [title=title1, body=body1, id=1.0], org.testng.TestRunner@4fbb001b) -->
+                  <span class="method-name">testCreateTweet</span>
+                  <span class="parameters">(TweetRequest [title=title1, body=body1, id=1.0],org.testng.TestRunner@4fbb001b)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -158,7 +170,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\SruthiB\eclipse-workspace\API\testngITestContext.xml</span>
+            <span class="header-content">C:\Users\SruthiB\eclipse-workspace\API\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -167,8 +179,8 @@
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;api.test.GenerateBearearTokenTest&quot;/&gt;
-      &lt;class name=&quot;api.test.UserManagementTest&quot;/&gt;
+      &lt;class name=&quot;api.test.TestCreateTweetEndpoint&quot;/&gt;
+      &lt;class name=&quot;api.test.TestGetTweetEndpoint&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -208,20 +220,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testGetUserProfileDetails')
-data.setCell(0, 2, 'api.test.UserManagementTest')
-data.setCell(0, 3, 24065);
+data.setCell(0, 1, 'testCreateTweet')
+data.setCell(0, 2, 'api.test.TestCreateTweetEndpoint')
+data.setCell(0, 3, 3345);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'generatBearerToken')
-data.setCell(1, 2, 'api.test.GenerateBearearTokenTest')
-data.setCell(1, 3, 1371);
+data.setCell(1, 1, 'testGetATweetDetails')
+data.setCell(1, 2, 'api.test.TestGetTweetEndpoint')
+data.setCell(1, 3, 668);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testGetAllTweets')
+data.setCell(2, 2, 'api.test.TestGetTweetEndpoint')
+data.setCell(2, 3, 604);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 25 seconds</span>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -247,17 +263,25 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">api.test.GenerateBearearTokenTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">generatBearerToken(org.testng.TestRunner@24105dc5)</span>
+              <div class="chronological-class-name">api.test.TestCreateTweetEndpoint</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setupData</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testCreateTweet(TweetRequest [title=title1, body=body1, id=1.0], org.testng.TestRunner@4fbb001b)</span>
+                <span class="method-start">680 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">api.test.UserManagementTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">api.test.TestGetTweetEndpoint</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">testGetUserProfileDetails(org.testng.TestRunner@24105dc5)</span>
-                <span class="method-start">1375 ms</span>
+                <span class="method-name">testGetATweetDetails(org.testng.TestRunner@4fbb001b)</span>
+                <span class="method-start">4034 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetAllTweets</span>
+                <span class="method-start">4703 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
