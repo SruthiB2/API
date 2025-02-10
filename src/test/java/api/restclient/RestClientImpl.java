@@ -1,6 +1,5 @@
 package api.restclient;
 
-import api.endpoints.Routes;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;

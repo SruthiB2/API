@@ -2,23 +2,23 @@ package api.helper;
 
 import com.google.gson.Gson;
 
-import api.payload.TweetRequest;
-import api.payload.TweetResponse;
+import api.payload.ApplyOfferRequest;
+import api.payload.ApplyOfferResponse;
 import io.restassured.response.Response;
 
 public class JsonHelper {
-
-	public String JsonToBusinessObject(TweetRequest tweetRequest) {
+	
+	public String BusinessObjectToJson(ApplyOfferRequest applyOfferRequest) {
 		Gson gson = new Gson();
-		String tweetJsonString = gson.toJson(tweetRequest);
+		String tweetJsonString = gson.toJson(applyOfferRequest);
 		return tweetJsonString;
 	}
 
-	public TweetResponse BusinessObjectToJson(Response response) {
-		TweetResponse tweetResponse = new TweetResponse();
+	public ApplyOfferResponse JsonToBusinessObject(Response response) {
+		ApplyOfferResponse applyOfferResponse = new ApplyOfferResponse();
 		Gson gson = new Gson();
-		tweetResponse = gson.fromJson(response.getBody().asString(), TweetResponse.class);
-		return tweetResponse;
+		applyOfferResponse = gson.fromJson(response.getBody().asString(), ApplyOfferResponse.class);
+		return applyOfferResponse;
 	}
 
 }
